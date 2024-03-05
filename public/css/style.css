@@ -1,0 +1,335 @@
+body{
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #C880FA;
+    overflow: hidden;
+}
+.rightleft-padding{
+    padding: 15px 35px;
+}
+.shop-skin-box{
+    background: #FFF38A;
+}
+.shop-skin-inner-box{
+    background-color: #FFD9BF;
+}
+/* start navbar css */
+.top-menu{
+    padding: 30px 50px;
+}
+.logo-desktop{
+    width: 80px;
+}
+#nav-slider{
+    justify-content: center;
+    background-color: #EEECFE;
+    border-radius: 40px;
+    margin: 0px 35px;
+}
+.nav-item{
+    padding: 10px 25px;
+}
+.collapse .navbar-nav .nav-link{
+    color: #000;
+    
+}
+.fafa-icon{
+    background-color: #E7F7D2;
+    padding: 15px;
+    border-radius: 50px;
+}
+.fafa-icon i{
+    font-size: 20px;
+}
+
+.mega-menu {
+    position: static !important;
+  }
+  .mega-menu .dropdown-menu {
+    width: 100%;
+    padding: 20px;
+    column-count: 4;
+  }
+
+/* .nav-item:hover .dropdown-menu{
+  display: block !important;
+} */
+
+
+/* end navbar css */
+
+/* start section css */
+
+.main-con{
+    width: 100%;
+    height: 94vh;
+    overflow-y: scroll;
+    border-radius: 35px;
+    overflow-x:hidden;
+    background-color: #fff;
+}
+/* start scroll bar */
+.main-con::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.main-con::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.main-con::-webkit-scrollbar-thumb
+{
+	background-color: #0ae;
+	
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+}
+/* end scroll bar */
+
+.landing-con{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    background-image: url("../images/banner-body-oil-nails_1512x.png");
+}
+.landing-inner-con{
+    position: absolute;
+    left: 70px;
+    bottom: 80px;
+    background-color: #FFF38A;
+    padding: 50px;
+    border-radius: 50px;
+
+}
+.btn{
+    background-color: #FF9570;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    
+}
+.btn:hover{
+    background-color: darkblue;
+    color: #fff;
+}
+.main-con-inner{
+    background-color: #fff;
+}
+.marquee-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marquee-con-inner{padding:0 100px}
+.second-section{margin-top: 10px;
+padding: 15px;}
+.marquee-box{background-color: #859CFF;
+border-radius: 200px;}
+/* start shop our bestseller css */
+
+
+.color-line .slick-dots{
+    text-align:left;
+    list-style:none;
+    width:98%;
+    background:#DE80AB; 
+    display:flex;
+    height:10px;
+    border-radius:50px;
+}
+
+.color-line .slick-dots li{
+    height:10px;
+    background:#DE80AB;
+    margin:0;
+    width:50%;
+}
+
+
+.color-line .slick-dots li.slick-active{
+    border-radius:50px;
+    background:#A000AC
+}
+
+
+#slider .slick-dots li button ,#slider2 .slick-dots li button{
+    display:none;
+}
+#slider3 .slick-dots li button{
+    display: block;
+}
+
+#slider .slick-dots, #slider .slick-dots li{    
+    background:#DE80AB; 
+}
+
+
+#slider .slick-dots li.slick-active{    
+    background:#A000AC; 
+}
+#slider2 .slick-dots, #slider2 .slick-dots li{    
+    background: #d3f015; 
+}
+
+
+#slider2 .slick-dots li.slick-active{    
+    background:#00B140; 
+}
+
+
+
+.shop-box {
+    width: 100%;
+    
+    position: relative;
+    border-radius: 20px;
+
+}
+.shop-box-inner{
+    width: 100%;
+
+    position: relative;
+    top: -15px;
+    left: -15px;
+    border-radius: 20px;
+}
+.div1-color{background-color: #00B141;}
+.div1-inner-color{background-color: #9CE2DA;}
+.div2-color{background-color: #D3F015;}
+.div2-inner-color{background-color: #FF9570;}
+.div3-color{background-color: #FF5500;}
+.div3-inner-color{background-color: #ECB800;}
+
+
+/* end shop our bestseller css */
+.video-box video{
+    border-radius: 80px;
+    width: 100%;
+    
+}
+.tab-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.tab-li{
+    margin: 0px 15px;
+    padding: 10px 25px;
+    background-color: #D3F015;
+    border-radius: 50px;
+    color: #000;
+    font-size: 1rem;
+}
+
+/* start about us css */
+.about-us-con{
+    background-color: #FFD070;
+    width: 100%;
+    border-radius: 250px;
+    position: relative;
+    height: 400px;
+    background-size: cover;
+}
+.about-us-inner-con{
+    position: absolute;
+    left: 37%;
+    bottom: 5%;
+}
+/* end about us css */
+.slider3-image{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 360px;
+    width: 100%;
+}
+.slider3-image img{
+    background: #ddd;
+    border-radius: 60%;
+}
+.packaging-img-box{
+    background-image: url("../images/meow-meow-tweet-new-packaging_900x.jpg" );
+}
+/* start   read the latest css*/
+.read-bg-color{
+    position: relative;
+    background: #859BFF;
+}
+.read-image-con{
+    right: 15px;
+    position: relative;
+    bottom: 15px;
+}
+.read-image-con img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+.read-contain{
+    padding: 25px 0px;
+}
+.read-contain p{
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 15px 0px;
+}
+.read-contain button{
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+.circle-box{
+    border-radius: 50%;
+
+}
+.circle-inner-box img{
+    border-radius: 50%;
+}
+/* end   read the latest css*/
+/* start official css */
+.official-inner-con{
+    background-color: #FF9570 !important;
+    width: 100%;
+    border-radius: 250px;
+    position: relative;
+    height: 400px;
+}
+
+/* end section css */
+/* start last marquee css */
+.last-marquee-box {
+border-radius: 200px;
+background-color: #ECB800 !important;
+}
+
+/* end last marquee css */
+/* start footer css */
+
+.footer-main-con{
+    background-color: #EEECFE;
+}
+.footer-nav{
+    list-style: none;
+}
+.footer-nav li a{
+    color: #000;
+}
+.email-input{
+    padding: 10px;
+    margin: 10px;
+    border: black;
+}
+.btn2{
+    padding: 10px 50px;
+}
+
+
+/* end footer css */
