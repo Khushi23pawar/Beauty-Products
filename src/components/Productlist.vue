@@ -9,9 +9,13 @@
                         <div class="shop-box-inner div1-inner-color">
                            <div>
                               <img :src="items.image" alt="product" class="img-fluid"/>
+                              <!-- <img src="/images/R-STCK-webtrans_540x.png" alt="product" class="img-fluid"/> -->
+
                             </div>
                            <div class="p-3">
-                              <h3 class="text-center">{{ items.name }}</h3>
+                            {{items.image}}
+
+                            <h3 class="text-center">{{ items.name }}</h3>
                               <p class="text-center" v-html="concatfn(index)"></p>
 
 </div>
@@ -28,12 +32,16 @@ import $ from 'jquery';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick';
 
+//import Image1 from '@/assets/images/R-STCK-webtrans_540x.png';
+// import Image2 from '@/assets/images/image2.jpg';
+// import Image3 from '@/assets/images/image3.jpg';
+
 export default{
     name:'ProductlistCom',
     data(){
         return {
             productObj:[{
-                image:"<%= BASE_URL %>R-STCK-webtrans_540x.png",
+                image:"'../../public/images/R-STCK-webtrans_540x.png",
                 name:"Deodarant Stick",
                 details:"Rose Graninum Baking Soda Free <br> From",
                 price:" $4.50 USD"
