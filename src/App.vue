@@ -46,7 +46,7 @@
             </div>
             <!-- end about us -->
             <!-- start shopping  -->
-            <ShoppingCom/>
+            <ShoppingCom tittle="Shop Our New Packaging"/>
 <!-- end shopping -->
 <!-- start readlatest -->
 <ReadlatestCom/>
