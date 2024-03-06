@@ -12,8 +12,7 @@
                               <!-- <img src="/images/R-STCK-webtrans_540x.png" alt="product" class="img-fluid"/> -->
 
                             </div>
-                           <div class="p-3">
-                            {{items.image}}
+                           <div class="p-3"> {{items.image}}
 
                             <h3 class="text-center">{{ items.name }}</h3>
                               <p class="text-center" v-html="concatfn(index)"></p>
