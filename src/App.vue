@@ -49,7 +49,7 @@
             <ShoppingCom tittle="Shop Our New Packaging"/>
 <!-- end shopping -->
 <!-- start readlatest -->
-<ReadlatestCom/>
+<ReadlatestCom title="Read the Latest"/>
 
 
 <!-- end readlatest -->
