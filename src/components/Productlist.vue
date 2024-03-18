@@ -33,7 +33,7 @@ import $ from 'jquery';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick';
 
-import Image1 from '@/assets/images/R-STCK-webtrans_540x.png';
+//import Image1 from '@/assets/images/R-STCK-webtrans_540x.png';
 //import Image2 from '@/assets/images/image2.jpg';
 //import Image3 from '@/assets/images/image3.jpg';
 
@@ -42,42 +42,42 @@ export default{
     data(){
         return {
             productObj:[{
-                image:Image1,
+                image:"/images/R-STCK-ART_540x.png",
                 name:"Deodarant Stick",
                 details:"Rose Graninum Baking Soda Free <br> From",
                 price:" $4.50 USD"
 
 
             },{
-                image:"../assets/images/L-STCK-webtrans_540x.png",
+                image:"/images/L-STCK-webtrans_540x.png",
                 name:"Lavender Bergamot",
                 details:"Lavender Bergamot <br>From ",
                 price:" $4.50 USD"
 
 
             },{
-                image:"../assets/images/GBSF-webtrans_388a9d91-01df-4df3-b02a-8cfca655609f_540x.png",
+                image:"/images/GBSF-webtrans_388a9d91-01df-4df3-b02a-8cfca655609f_540x.png",
                 name:"Grapefruit",
                 details:"Grapefruit Baking Soda Free <br>From",
                 price:" $4.50 USD"
 
 
             },{
-                image:"../assets/images/GBSF-webtrans_388a9d91-01df-4df3-b02a-8cfca655609f_540x.png",
+                image:"/images/GBSF-webtrans_388a9d91-01df-4df3-b02a-8cfca655609f_540x.png",
                 name:"Grapefruit",
                 details:"Grapefruit Baking Soda Free <br>From",
                 price:" $4.50 USD"
 
 
             },{
-                image:"../assets/images/GBSF-webtrans_388a9d91-01df-4df3-b02a-8cfca655609f_540x.png",
+                image:"/images/GBSF-webtrans_388a9d91-01df-4df3-b02a-8cfca655609f_540x.png",
                 name:"Grapefruit",
                 details:"Grapefruit Baking Soda Free <br>From",
                 price:" $4.50 USD"
 
 
             },{
-                image:"../assets/images/GBSF-webtrans_388a9d91-01df-4df3-b02a-8cfca655609f_540x.png",
+                image:"/images/GBSF-webtrans_388a9d91-01df-4df3-b02a-8cfca655609f_540x.png",
                 name:"Grapefruit",
                 details:"Grapefruit Baking Soda Free <br>From",
                 price:" $4.50 USD"
